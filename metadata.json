@@ -1,0 +1,8 @@
+{
+  "name": "Bondi Emergency Plumbing",
+  "description": "24/7 local emergency plumbing service in Bondi and Eastern Suburbs. Fast 30 minute response.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
