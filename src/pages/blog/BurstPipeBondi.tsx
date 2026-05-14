@@ -187,6 +187,11 @@ export default function BurstPipeBondi() {
                         How Much Does an Emergency Plumber Cost in Bondi? (2026 Pricing Guide)
                       </Link>
                     </li>
+                    <li>
+                      <Link to="/blog/common-plumbing-emergencies-bondi-beach" className="text-navy font-semibold hover:underline">
+                        Common Plumbing Emergencies in Bondi Beach
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

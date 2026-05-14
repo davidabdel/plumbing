@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import Home from './pages/Home';
 import BurstPipeBondi from './pages/blog/BurstPipeBondi';
 import PlumbingCostBondi from './pages/blog/PlumbingCostBondi';
+import CommonEmergenciesBondi from './pages/blog/CommonEmergenciesBondi';
 import Layout from './components/Layout';
 
 // Scroll to top on route change
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/blog/burst-pipe-bondi-apartment" element={<BurstPipeBondi />} />
           <Route path="/blog/emergency-plumber-cost-bondi" element={<PlumbingCostBondi />} />
+          <Route path="/blog/common-plumbing-emergencies-bondi-beach" element={<CommonEmergenciesBondi />} />
           {/* Fallback to home */}
           <Route path="*" element={<Home />} />
         </Routes>

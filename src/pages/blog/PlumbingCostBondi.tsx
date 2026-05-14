@@ -203,6 +203,11 @@ export default function PlumbingCostBondi() {
                         What To Do When a Pipe Bursts in Your Bondi Apartment
                       </Link>
                     </li>
+                    <li>
+                      <Link to="/blog/common-plumbing-emergencies-bondi-beach" className="text-navy font-semibold hover:underline">
+                        Common Plumbing Emergencies in Bondi Beach
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

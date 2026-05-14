@@ -49,6 +49,7 @@ export default function Layout({ children }: LayoutProps) {
               <ul className="space-y-3 text-gray-400">
                 <li className="hover:text-white"><Link to="/blog/burst-pipe-bondi-apartment">Burst Pipe Guide</Link></li>
                 <li className="hover:text-white"><Link to="/blog/emergency-plumber-cost-bondi">Pricing Guide 2026</Link></li>
+                <li className="hover:text-white"><Link to="/blog/common-plumbing-emergencies-bondi-beach">Common Emergencies</Link></li>
                 <li>Maintenance Tips</li>
               </ul>
             </div>
