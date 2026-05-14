@@ -180,13 +180,13 @@ export default function BurstPipeBondi() {
                 </div>
 
                 <div className="bg-gray-100 p-8 rounded-2xl">
-                  <h3 className="font-bold text-xl mb-4">Service Areas</h3>
-                  <ul className="grid grid-cols-1 gap-2">
-                    {["Bondi Beach", "Bondi Junction", "North Bondi", "Tamarama", "Bronte", "Coogee", "Randwick", "Waverley", "Rose Bay"].map(area => (
-                      <li key={area} className="text-navy font-semibold hover:underline">
-                        <Link to="/">{area}</Link>
-                      </li>
-                    ))}
+                  <h3 className="font-bold text-xl mb-4">Recent Articles</h3>
+                  <ul className="space-y-4">
+                    <li>
+                      <Link to="/blog/emergency-plumber-cost-bondi" className="text-navy font-semibold hover:underline">
+                        How Much Does an Emergency Plumber Cost in Bondi? (2026 Pricing Guide)
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </div>

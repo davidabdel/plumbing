@@ -45,13 +45,11 @@ export default function Layout({ children }: LayoutProps) {
               <p className="text-gray-400">Your local 24/7 emergency plumber serving Bondi and the Eastern Suburbs</p>
             </div>
             <div>
-              <h4 className="font-bold text-lg mb-6 uppercase tracking-wider">Services</h4>
+              <h4 className="font-bold text-lg mb-6 uppercase tracking-wider">Resources</h4>
               <ul className="space-y-3 text-gray-400">
-                <li>Emergency Plumbing Bondi</li>
-                <li>Blocked Drains Bondi</li>
-                <li>Hot Water Repairs Bondi</li>
                 <li className="hover:text-white"><Link to="/blog/burst-pipe-bondi-apartment">Burst Pipe Guide</Link></li>
-                <li>Gas Leak Detection Bondi</li>
+                <li className="hover:text-white"><Link to="/blog/emergency-plumber-cost-bondi">Pricing Guide 2026</Link></li>
+                <li>Maintenance Tips</li>
               </ul>
             </div>
             <div>

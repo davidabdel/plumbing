@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { useEffect } from 'react';
 import Home from './pages/Home';
 import BurstPipeBondi from './pages/blog/BurstPipeBondi';
+import PlumbingCostBondi from './pages/blog/PlumbingCostBondi';
 import Layout from './components/Layout';
 
 // Scroll to top on route change
@@ -31,6 +32,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog/burst-pipe-bondi-apartment" element={<BurstPipeBondi />} />
+          <Route path="/blog/emergency-plumber-cost-bondi" element={<PlumbingCostBondi />} />
           {/* Fallback to home */}
           <Route path="*" element={<Home />} />
         </Routes>
