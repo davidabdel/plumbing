@@ -12,8 +12,12 @@ export default function Layout({ children }: LayoutProps) {
       {/* HEADER */}
       <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-          <Link to="/" className="font-bold text-navy text-xl md:text-2xl">
-            Bondi Emergency Plumbing
+          <Link to="/" className="flex items-center">
+            <img 
+              src="/images/logo.png" 
+              alt="Bondi Emergency Plumbing" 
+              className="h-auto max-h-[50px] w-auto"
+            />
           </Link>
           <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold text-navy">
             <Link to="/" className="hover:text-navy underline-offset-4 hover:underline">Home</Link>
