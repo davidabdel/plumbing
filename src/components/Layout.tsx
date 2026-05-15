@@ -20,7 +20,7 @@ export default function Layout({ children }: LayoutProps) {
             <a href="/#services" className="hover:text-navy underline-offset-4 hover:underline">Services</a>
             <a href="/#areas" className="hover:text-navy underline-offset-4 hover:underline">Areas</a>
             <a href="/#faq" className="hover:text-navy underline-offset-4 hover:underline">FAQ</a>
-            <Link to="/blog/burst-pipe-bondi-apartment" className="hover:text-navy underline-offset-4 hover:underline">Blog</Link>
+            <Link to="/blog" className="hover:text-navy underline-offset-4 hover:underline">Blog</Link>
             <a href="/#contact" className="hover:text-navy underline-offset-4 hover:underline">Contact</a>
           </nav>
           <a 
