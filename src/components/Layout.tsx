@@ -11,12 +11,12 @@ export default function Layout({ children }: LayoutProps) {
     <div className="min-h-screen text-[#1a1a1a] bg-white">
       {/* HEADER */}
       <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-32 flex items-center justify-between">
           <Link to="/" className="flex items-center">
             <img 
               src="/images/logo.png" 
               alt="Bondi Emergency Plumbing" 
-              className="h-auto max-h-[50px] w-auto"
+              className="h-auto max-h-[100px] w-auto"
             />
           </Link>
           <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold text-navy">
