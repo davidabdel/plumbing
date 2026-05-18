@@ -26,10 +26,33 @@ function ScrollToTop() {
   return null;
 }
 
+// Update canonical link on route change
+function CanonicalMeta() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    let finalUrl = 'https://www.bondiemergencyplumbing.com.au/';
+    if (pathname !== '/') {
+      finalUrl = `https://www.bondiemergencyplumbing.com.au${pathname}${pathname.endsWith('/') ? '' : '/'}`;
+    }
+
+    let link: HTMLLinkElement | null = document.querySelector('link[rel="canonical"]');
+    if (!link) {
+      link = document.createElement('link');
+      link.rel = 'canonical';
+      document.head.appendChild(link);
+    }
+    link.href = finalUrl;
+  }, [pathname]);
+
+  return null;
+}
+
 export default function App() {
   return (
     <Router>
       <ScrollToTop />
+      <CanonicalMeta />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />

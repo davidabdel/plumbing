@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { PHONE_NUMBER } from '../constants';
 import LeadForm from '../components/LeadForm';
 import SEO from '../components/SEO';
@@ -302,6 +303,59 @@ export default function Home() {
                     </div>
                   ))}
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* BLOG TEASER SECTION */}
+        <section className="py-20 bg-gray-50 border-t border-gray-200">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-navy">Latest from our blog</h2>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {/* Card 1 */}
+              <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+                <h3 className="text-xl font-bold mb-3 text-navy">
+                  <Link to="/blog/burst-pipe-bondi-apartment" className="hover:underline">
+                    What to do when a pipe bursts in your Bondi apartment
+                  </Link>
+                </h3>
+                <p className="text-gray-600 mb-6 flex-grow">
+                  A burst pipe in your Bondi apartment can cause serious damage in minutes. Here's exactly what to do.
+                </p>
+                <Link to="/blog/burst-pipe-bondi-apartment" className="text-red-600 font-bold hover:underline self-start">
+                  Read More &rarr;
+                </Link>
+              </div>
+
+              {/* Card 2 */}
+              <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+                <h3 className="text-xl font-bold mb-3 text-navy">
+                  <Link to="/blog/emergency-plumber-cost-bondi" className="hover:underline">
+                    How much does an emergency plumber cost in Bondi?
+                  </Link>
+                </h3>
+                <p className="text-gray-600 mb-6 flex-grow">
+                  Honest pricing breakdown covering call-out fees, common jobs and what affects the final bill.
+                </p>
+                <Link to="/blog/emergency-plumber-cost-bondi" className="text-red-600 font-bold hover:underline self-start">
+                  Read More &rarr;
+                </Link>
+              </div>
+
+              {/* Card 3 */}
+              <div className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col">
+                <h3 className="text-xl font-bold mb-3 text-navy">
+                  <Link to="/blog/common-plumbing-emergencies-bondi-beach" className="hover:underline">
+                    The most common plumbing emergencies in Bondi Beach homes
+                  </Link>
+                </h3>
+                <p className="text-gray-600 mb-6 flex-grow">
+                  From burst pipes to blocked drains — the plumbing problems we see most often in Bondi.
+                </p>
+                <Link to="/blog/common-plumbing-emergencies-bondi-beach" className="text-red-600 font-bold hover:underline self-start">
+                  Read More &rarr;
+                </Link>
               </div>
             </div>
           </div>

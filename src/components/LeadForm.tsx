@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { GHL_WEBHOOK_URL } from '../constants';
 
 export default function LeadForm({ title, spacing = "space-y-4", padding = "p-6", inputPadding = "p-3" }: { title?: string, spacing?: string, padding?: string, inputPadding?: string }) {
